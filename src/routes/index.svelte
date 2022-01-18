@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import TsComponent from '../lib/TsComponent.svelte';
+	import TsWithStyle from '../lib/TsWithStyle.svelte';
+	import JsComponent from '../lib/JsComponent.svelte';
+	import TsWithStyleOneLine from '$lib/TsWithStyleOneLine.svelte';
+</script>
+
+<JsComponent />
+<TsComponent />
+<TsWithStyle />
+<TsWithStyleOneLine />
